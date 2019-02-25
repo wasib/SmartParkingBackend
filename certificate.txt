@@ -1,0 +1,58 @@
+Lifelike
+2
+createLife
+1
+
+keytool -exportcert -alias key0 -keystore \app\release.jks | openssl sha1 -binary | openssl base64
+
+keyalias key0
+password password
+
+keyhash
+bNawm7RABwp5kVVzZPb/7U4HirA=
+
+         MD5:  23:54:91:F7:34:E8:42:05:F1:08:22:25:F9:CD:51:53
+         SHA1: 03:6E:7D:F5:88:C0:69:85:F3:A2:19:AA:69:2D:6F:E4:AF:99:5C:70
+         SHA256: D2:4E:75:A5:9D:2D:8C:DD:C9:B6:02:7D:F4:98:3A:72:5E:83:C8:47:FE:35:37:C2:36:2A:0E:50:FF:21:5C:D1
+         Signature algorithm name: SHA256withRSA
+         Version: 3
+03:6E:7D:F5:88:C0:69:85:F3:A2:19:AA:69:2D:6F:E4:AF:99:5C:70
+
+
+
+keytool -list -v -keystore app\release.jks -alias key0
+
+keytool -exportcert -list -v \ -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
+
+keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+
+keytool -exportcert -alias key0 -keystore %USERPROFILE%\.android\debug.keystore | openssl sha1 -binary | openssl base64
+
+
+keytool -exportcert -alias key0 -keystore C:\Users\Tej\Desktop\BookMySketch\app\release.jks | openssl sha1 -binary | openssl base64
+
+
+App signing certificate
+
+ DOWNLOAD CERTIFICATE
+MD5 certificate fingerprint
+MD5: 09:98:C4:F9:2B:6F:DE:71:9D:3D:2D:07:32:19:8E:B1
+
+SHA-1 certificate fingerprint
+SHA1: 47:11:0D:08:4A:54:8F:B9:1C:BA:D4:3F:D2:01:3D:2D:EB:B3:35:FD
+
+SHA-256 certificate fingerprint
+SHA256: 75:E7:52:E2:0B:A4:4A:F0:5F:9C:09:BC:55:6C:C2:53:C5:F1:72:B3:77:61:35:5D:36:18:E4:D2:A5:57:4C:29
+
+Upload certificate
+
+ DOWNLOAD CERTIFICATE
+MD5 certificate fingerprint
+MD5: 23:54:91:F7:34:E8:42:05:F1:08:22:25:F9:CD:51:53
+
+SHA-1 certificate fingerprint
+SHA1: 03:6E:7D:F5:88:C0:69:85:F3:A2:19:AA:69:2D:6F:E4:AF:99:5C:70
+
+SHA-256 certificate fingerprint
+SHA256: D2:4E:75:A5:9D:2D:8C:DD:C9:B6:02:7D:F4:98:3A:72:5E:83:C8:47:FE:35:37:C2:36:2A:0E:50:FF:21:5C:D1
