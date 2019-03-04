@@ -21,6 +21,7 @@
     "logops": "^2.1.0",
     "moment": "^2.22.2",
     "mongoose": "^4.8.5",
-    "package.json": "^2.0.1"
+    "package.json": "^2.0.1",
+    "node-gcm": "1.0.2"
   }
 }
